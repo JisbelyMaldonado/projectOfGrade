@@ -1,0 +1,6 @@
+@media print {
+	.menuverde,.logo,.menuprincipal,.lineafin,.pie,.btn-group,.adp-legal {
+		display: none;
+	}
+
+}

@@ -1,0 +1,56 @@
+El avila 
+Hotel humbolt
+10.5833333; 
+-66.58333329999999
+NORTER: ETDO. VARGAS 
+SUR: DTRITO CAPITAL
+ESTE: BARLOVENTO 
+OESTE: CATIA LA MAR
+
+____________________________________________________________________________________
+
+Mariusa
+Forma parte del rio mas grande de venezuela 
+LAT: 9.3930556
+LONG 9.3930556
+humedo
+MSNM (METROS SOBRE EL NIVEL DEL MAR):10
+Maturin
+puerto ordaz 
+trinidad y tobago
+bolivar
+
+_______________________________________________________________________________________
+
+Mochima
+10.306389
+-64.47916399999997
+N:grenada
+S: Cd. Bolivar
+E: caracas
+O: trinidad y tobago
+
+_______________________________________________________________________________________
+cuevas del guacharo
+LAT:10.1999785
+LONG:-63.63963480000001
+CALUROSO
+Norte: Cumana
+SUR: Maturin 
+E: Barcelona 
+O: Trinidad
+MSNM: 1200
+
+________________________________________________________________________________________
+HENRRY PITIER
+LAT:10.38189
+LONG: -67.61853759999997
+Nor:valencia
+SUR: Calabozo
+E: Valencia
+O:Maracay
+msnm: 2436
+___________________________________________________________________________________________
+PARQUE CANAIMA
+LAT:5.5
+LONG:-62

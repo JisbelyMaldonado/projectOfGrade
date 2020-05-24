@@ -1,0 +1,73 @@
+<?php 
+require 'base.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>..::[IMPARQUES]::..</title>
+		<meta name="description" content="overview &amp; stats" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<?php require 'css/ace.php'; ?>
+		<?php require 'js/ace.php'; ?>
+	</head>
+	<body>
+		<div class="bootbox modal fade in" role="dialog" tabindex="-1" style="" aria-hidden="false">
+			<div class="modal-dialog">
+				<div class="modal-content"></div>
+			</div>
+		</div>
+		<div class="fondo"><img src="img/bg.jpg" alt=""></div>
+		<div class="contenido">
+			<div class="row">
+				<div class="fondocintillo">
+					<center><img src="img/cintillo.png" alt=""></center>
+				</div>
+				<div class="col-sm-12 menupage menufijo">
+					<?php require 'app/page/vst/menu.php'; ?>
+				</div>
+			</div>
+			<div class="row contenido-page">
+				<?php echo $fn->banners(); ?>
+			</div>
+			<div class="clearfix"></div>
+			<div class="row">
+				<div class="col-sm-12 content">
+					<?php require 'app/page/vst/contenido_page.php'; ?>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 pie">
+					<div class="col-sm-2 redessociales">
+						<?php require 'app/page/vst/redessociales.php'; ?>
+					</div>
+					<div class="col-sm-6 extras">
+						<?php require 'app/page/vst/extras.php'; ?>
+					</div>
+					<div class="col-sm-4 pull-right comentario">
+						<?php require 'app/page/vst/formcomentario.php'; ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		// load('vst-page-menu','','.menupage');
+		// load('vst-page-extras','','.extras');
+		// load('vst-page-formcomentario','','.comentario');
+		// load('vst-page-redessociales','','.redessociales');
+	</script>
+	<script>
+		$(document).ready(function() {
+			var menu = $('.menufijo');
+			var menu_offset = menu.offset();
+			$(window).on('scroll', function() {
+				if($(window).scrollTop() > menu_offset.top) {
+					menu.addClass('menupage-fijo');
+				} else {
+					menu.removeClass('menupage-fijo');
+				}
+			});
+		});
+	</script>
+</html>

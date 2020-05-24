@@ -1,0 +1,5 @@
+#Options All -Indexes
+RewriteEngine On
+RewriteRule ^prc-(.*)-(.*)$ mod.php?clase=$1&metodo=$2 [L]
+RewriteRule ^vst-(.*)-(.*)$ app/$1/vst/$2\.php [L]
+RewriteRule ^rpt-(.*)-(.*)$ app/repo/vst/$1\.php?$2 [L]
